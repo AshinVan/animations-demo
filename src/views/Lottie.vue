@@ -21,10 +21,10 @@ onMounted(() => {
   ScrollTrigger.create({
     trigger: container.value as HTMLDivElement,
     start: 'top top',
-    end: 'bottom bottom',
+    end: 'bottom top',
     onUpdate: self => {
       animation.goToAndStop(self.progress * animation.totalFrames, true)
-    },  
+    },
   })
 })
 
@@ -39,14 +39,16 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .container-box {
-  width: 100vw;
-  height: 150vh;
+  height: 200vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  position: sticky;
+  top: 0;
 
   &>div {
-    width: 50vw;
+    position: sticky;
+    top: 0;
   }
 }
 </style>
