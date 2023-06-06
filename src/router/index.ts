@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Highlight from '../views/Highlight.vue'
+import Lottie from '../views/Lottie.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,6 +9,11 @@ const router = createRouter({
       path: '/',
       name: 'highlight',
       component: Highlight
+    },
+    {
+      path: '/lottie',
+      name: 'lottie',
+      component: Lottie
     },
   ]
 })

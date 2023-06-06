@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@vitejs/plugin-vue': ^4.1.0
   gsap: ^3.11.5
+  lottie-web: ^5.12.0
   sass: ^1.62.1
   sass-loader: ^13.3.0
   ts-node: ^10.9.1
@@ -14,6 +15,7 @@ specifiers:
 
 dependencies:
   gsap: 3.11.5
+  lottie-web: 5.12.0
   vue: 3.3.4
   vue-router: 4.2.2_vue@3.3.4
 
@@ -592,6 +594,10 @@ packages:
     resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
     engines: {node: '>= 8'}
     dev: true
+
+  /lottie-web/5.12.0:
+    resolution: {integrity: sha512-tt2oiv0EmXC8J/RF877dVCo93vZBBnww+SO6dldREgHD8EsP97jQ42JRryIRfY+6aVESQsHYNEAYgH25cBFy7A==}
+    dev: false
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
