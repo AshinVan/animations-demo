@@ -1,0 +1,20 @@
+@font-face {
+	font-family:'SF Pro SC';
+	font-style:normal;
+	font-weight:600;
+	src: url('./assets/fonts/PingFangSC-Semibold.woff2')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
