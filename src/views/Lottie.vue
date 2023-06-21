@@ -17,18 +17,15 @@ onMounted(() => {
     autoplay: false,
     path: '/bloom.json'
   })
+  console.log("🚀 ~ animation:", animation)
 
   ScrollTrigger.create({
     trigger: container.value as HTMLDivElement,
     start: 'top top',
     end: 'bottom top',
-    onUpdate: self => {
-      animation.goToAndStop(self.progress * animation.totalFrames, true)
-    },
+    onUpdate: self => animation.goToAndStop(self.progress * animation.totalFrames, true)
   })
 })
-
-
 </script>
 
 <template>

@@ -9,12 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gsap": "^3.11.5",
+    "@babylonjs/core": "^6.7.0",
+    "gsap": "npm:@gsap/business@^3.12.1",
     "lottie-web": "^5.12.0",
+    "three": "^0.153.0",
     "vue": "^3.2.47",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "@babylonjs/loaders": "^6.7.0",
+    "@types/node": "^20.3.1",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
     "@vitejs/plugin-vue": "^4.1.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.3.0",
